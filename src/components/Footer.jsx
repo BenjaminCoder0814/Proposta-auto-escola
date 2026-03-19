@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="flex items-center gap-2">
           <div className="w-7 h-7 rounded-xl flex items-center justify-center font-black text-xs"
             style={{ background: 'linear-gradient(135deg, #3B82F6, #06B6D4)' }}>CL</div>
-          <span className="text-white/50 text-sm">CFC Lopes · Projeto de Transformação Digital · 2025</span>
+          <span className="text-white/50 text-sm">CFC Lopes · Projeto de Transformação Digital · 2026</span>
         </div>
         <p className="text-white/20 text-xs">Material confidencial — uso interno e apresentação comercial.</p>
       </div>
