@@ -40,11 +40,8 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 lg:px-10 h-[66px] flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-blue-600 to-cyan-500 flex items-center justify-center shadow-glow-sm flex-shrink-0">
-              <span className="text-white font-black text-xs tracking-tight">CF</span>
-            </div>
             <div className="leading-none">
-              <div className="text-white font-black text-sm tracking-tight">CFC Lopes</div>
+              <div className="text-white font-black text-sm tracking-tight">Autoescola</div>
               <div className="text-white/30 text-[10px] font-medium tracking-wide">Projeto Digital 2026</div>
             </div>
           </div>

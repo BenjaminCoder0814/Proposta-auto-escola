@@ -107,7 +107,7 @@ export default function HeroSection() {
             Projeto de{' '}
             <span className="text-gradient">Estruturação Digital</span>
             <br />
-            para o <span className="text-white/90">CFC Lopes</span>
+            para a <span className="text-white/90">Autoescola</span>
           </motion.h1>
 
           {/* Subtitle */}
@@ -124,7 +124,7 @@ export default function HeroSection() {
             variants={itemVariants}
             className="text-sm text-white/35 leading-relaxed max-w-xl mb-10"
           >
-            Este projeto foi pensado para transformar o CFC Lopes em uma operação mais moderna,
+            Este projeto foi pensado para transformar a autoescola em uma operação mais moderna,
             profissional e preparada para captar, acompanhar e converter alunos com muito mais eficiência.
           </motion.p>
 
