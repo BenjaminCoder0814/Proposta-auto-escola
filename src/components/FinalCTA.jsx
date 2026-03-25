@@ -39,11 +39,13 @@ export default function FinalCTA() {
           <h2 className="text-5xl lg:text-6xl font-black tracking-tight mb-6 leading-tight">
             Vamos transformar o<br />
             <span className="text-gradient">a Autoescola</span> juntos?
+            <span className="text-gradient">CFC Lopes</span> juntos?
           </h2>
 
           <p className="text-white/50 text-xl max-w-xl mx-auto mb-12 leading-relaxed">
             Este projeto foi desenvolvido especificamente para a realidade e oportunidades
             da autoescola. A próxima etapa é alinhar os detalhes e iniciar a implementação.
+            do CFC Lopes. A próxima etapa é alinhar os detalhes e iniciar a implementação.
           </p>
         </motion.div>
 

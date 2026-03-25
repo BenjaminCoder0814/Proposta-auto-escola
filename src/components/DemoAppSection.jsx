@@ -30,6 +30,7 @@ function HomeScreen() {
         <div>
           <p style={{ fontSize: 8, color: 'rgba(255,255,255,0.4)', marginBottom: 2 }}>Bem-vindo de volta</p>
           <p style={{ fontSize: 12, fontWeight: 800, color: 'white' }}>Autoescola</p>
+          <p style={{ fontSize: 12, fontWeight: 800, color: 'white' }}>CFC Lopes</p>
         </div>
         <div style={{ width: 26, height: 26, borderRadius: '50%', background: 'linear-gradient(135deg,#3B82F6,#06B6D4)', display:'flex', alignItems:'center', justifyContent:'center', fontSize: 8, fontWeight: 700, color: 'white' }}>
           AS

@@ -23,6 +23,7 @@ const steps = [
     color: 'purple',
     title: 'Recompensa liberada',
     desc: 'Após confirmação do novo matriculado, a recompensa é creditada para o indicador. O valor e a regra são configuráveis pela gestão da autoescola.',
+    desc: 'Após confirmação do novo matriculado, a recompensa é creditada para o indicador. O valor e a regra são configuráveis pela gestão do CFC Lopes.',
   },
 ]
 
@@ -57,6 +58,7 @@ export default function ReferralSection() {
           <p className="text-white/50 text-lg max-w-2xl mx-auto">
             O ecossistema digital inclui um programa estruturado de indicação. Os alunos formados
             se tornam canais de captação orgânica para a autoescola — sem custo por lead.
+            se tornam canais de captação orgânica para o CFC Lopes — sem custo por lead.
           </p>
         </motion.div>
 

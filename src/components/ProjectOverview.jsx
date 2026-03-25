@@ -7,7 +7,7 @@ const cards = [
     icon: Target,
     color: 'blue',
     title: 'Posicionamento Digital',
-    text: 'Transformar a presença online da autoescola de inexistente para referência local, posicionando a marca como a autoescola de confiança da região universitária.',
+    text: 'Transformar a presença online do CFC Lopes de inexistente para referência local, posicionando a marca como a autoescola de confiança da região universitária.',
     img: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=700&q=80',
   },
   {
@@ -60,13 +60,13 @@ export default function ProjectOverview() {
             Visão geral do <span className="text-gradient">projeto</span>
           </h2>
           <p className="text-white/50 text-lg max-w-2xl mx-auto leading-relaxed">
-            A autoescola possui uma oportunidade estratégica de crescimento por estar inserida em uma
+            O CFC Lopes possui uma oportunidade estratégica de crescimento por estar inserido em uma
             região com forte potencial de captação. Para aproveitar este cenário, o negócio precisa
             de estrutura digital, apresentação profissional e processo comercial organizado.
           </p>
           <p className="text-white/35 text-sm mt-4 max-w-xl mx-auto">
             Mais do que criar um site, esta proposta apresenta uma estrutura completa para fortalecer
-            a marca, melhorar a experiência do cliente e organizar a operação da autoescola.
+            a marca, melhorar a experiência do cliente e organizar a operação do CFC Lopes.
           </p>
         </motion.div>
 

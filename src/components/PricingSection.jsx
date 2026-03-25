@@ -49,6 +49,9 @@ function UnitCard({ item, index, inView }) {
       {/* Price */}
       <div className="mb-4">
         <span className={`text-xl font-bold ${c.price}`}>A consultar</span>
+        <span className="text-xs text-white/35">R$ </span>
+        <span className={`text-3xl font-black ${c.price}`}>{fmt(item.price)}</span>
+        <span className="text-xs text-white/35 ml-1">único</span>
       </div>
 
       <p className="text-white/45 text-xs leading-relaxed mb-4">{item.description}</p>
@@ -82,7 +85,7 @@ export default function PricingSection() {
         <motion.div initial="hidden" animate={inView ? 'visible' : 'hidden'} variants={fade} className="text-center mb-16">
           <div className="eyebrow justify-center mb-4">Investimento</div>
           <h2 className="text-4xl lg:text-5xl font-black tracking-tight mb-5">
-            Proposta de <span className="text-gradient">escopo</span>
+            Proposta de <span className="text-gradient">valores</span>
           </h2>
           <p className="text-white/50 text-lg max-w-2xl mx-auto">
             Cada frente do projeto tem um valor individual definido. A contratação em pacote
@@ -130,6 +133,7 @@ export default function PricingSection() {
                   <span className="eyebrow" style={{ color: '#93C5FD' }}>Projeto Completo</span>
                 </div>
                 <h3 className="text-3xl font-black text-white mb-2">Ecossistema Digital Completo</h3>
+                                <h3 className="text-3xl font-black text-white mb-2">Ecossistema Digital CFC Lopes</h3>
                 <p className="text-white/50 mb-6 text-sm">
                   Todas as frentes contratadas em um único projeto integrado. Entrega coordenada,
                   identidade visual unificada e menor custo total.
@@ -146,9 +150,20 @@ export default function PricingSection() {
 
               {/* Right — pricing */}
               <div className="text-center lg:text-right">
-                <p className="text-white/40 text-sm font-medium mb-4">Projeto completo</p>
+                <p className="text-white/40 text-sm mb-1 line-through">
+                  R$ {fmt(packageDeal.fullPrice)} somados individualmente
+                </p>
+                <p className="text-[11px] text-amber-400/70 mb-1">Investindo agora, você economiza R$ {fmt(packageDeal.fullPrice - packageDeal.specialPrice)}</p>
                 <div className="inline-flex flex-col items-center lg:items-end">
-                  <span className="text-5xl font-black text-gradient">A consultar</span>
+                  <p className="text-white/40 text-sm font-medium">Projeto completo por</p>
+                  <div className="flex items-baseline gap-1 my-2">
+                    <span className="text-lg text-white/60">R$</span>
+                    <span className="text-6xl font-black text-gradient">{fmt(packageDeal.specialPrice)}</span>
+                  </div>
+                  <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold"
+                    style={{ background: 'rgba(16,185,129,0.2)', border: '1px solid rgba(16,185,129,0.3)', color: '#6EE7B7' }}>
+                    economia de R$ {fmt(packageDeal.fullPrice - packageDeal.specialPrice)}
+                  </div>
                 </div>
                 <p className="text-white/30 text-xs mt-3">Pagamento à vista ou parcelado. Contrato formal.</p>
               </div>
@@ -184,11 +199,13 @@ export default function PricingSection() {
             </div>
             {/* Right */}
             <div className="text-center lg:text-right">
-              <p className="text-white/40 text-sm mb-3">Manutenção mensal</p>
+              <p className="text-white/40 text-sm mb-1">Investimento mensal</p>
               <div className="flex items-baseline gap-1 justify-center lg:justify-end my-1">
-                <span className="text-4xl font-black text-gradient-purple">A consultar</span>
+                <span className="text-lg text-white/60">R$</span>
+                <span className="text-5xl font-black text-gradient-purple">{fmt(monthly.price)}</span>
+                <span className="text-white/40 text-lg">/{monthly.label}</span>
               </div>
-              <p className="text-white/30 text-xs mt-2">Contrato mínimo de {monthly.minContract}</p>
+              <p className="text-white/30 text-xs mt-2">Contrato a partir de {monthly.minContract}</p>
             </div>
           </div>
         </motion.div>

@@ -12,6 +12,7 @@ function MiniSite() {
         style={{ background: 'rgba(7,7,26,0.95)', backdropFilter: 'blur(12px)', borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
         <div className="flex items-center gap-2">
           <span className="font-bold text-xs text-white">Autoescola</span>
+          <span className="font-bold text-xs text-white">CFC Lopes</span>
         </div>
         <button className="flex items-center gap-1 px-3 py-1.5 rounded-lg text-white text-[10px] font-bold"
           style={{ background: '#25D366', boxShadow: '0 0 12px rgba(37,211,102,0.3)' }}>
@@ -27,6 +28,7 @@ function MiniSite() {
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[9px] font-bold mb-3"
             style={{ background: 'rgba(37,99,235,0.2)', border: '1px solid rgba(37,99,235,0.35)', color: '#93C5FD' }}>
             <Star size={8} className="fill-current" /> Autoescola nº1 em Eng. Coelho
+            <Star size={8} className="fill-current" /> CFC Lopes nº1 em Eng. Coelho
           </div>
           <h2 className="text-xl font-black text-white mb-2 leading-tight">
             Sua CNH com<br /><span style={{ background: 'linear-gradient(135deg,#93C5FD,#22D3EE)', WebkitBackgroundClip:'text', WebkitTextFillColor:'transparent' }}> quem é referência</span>
@@ -106,6 +108,7 @@ function MiniSite() {
       {/* Footer */}
       <div className="px-5 py-4 text-center border-t border-white/5">
         <p className="text-[8px] text-white/25">Autoescola · Engenheiro Coelho, SP · (19) 9 xxxx-xxxx</p>
+        <p className="text-[8px] text-white/25">CFC Lopes · Engenheiro Coelho, SP · (19) 9 xxxx-xxxx</p>
       </div>
     </div>
   )
@@ -133,6 +136,7 @@ export default function DemoSiteSection() {
           <div className="eyebrow justify-center mb-4">Demo Interativo</div>
           <h2 className="text-4xl lg:text-5xl font-black tracking-tight mb-5">
             O site da <span className="text-gradient">Autoescola</span>
+            O site do <span className="text-gradient">CFC Lopes</span>
           </h2>
           <p className="text-white/50 text-lg max-w-2xl mx-auto">
             Navegue pela prévia interativa do site institucional. Design profissional, focado em

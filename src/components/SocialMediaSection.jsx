@@ -67,7 +67,7 @@ export default function SocialMediaSection() {
             Presença digital <span className="text-gradient-green">consistente</span>
           </h2>
           <p className="text-white/50 text-lg max-w-2xl mx-auto">
-            Uma estratégia de conteúdo visual que posiciona a autoescola como autoridade local,
+            Uma estratégia de conteúdo visual que posiciona o CFC Lopes como autoridade local,
             atrai novos alunos e mantém relacionamento com os atuais.
           </p>
         </motion.div>
@@ -87,6 +87,7 @@ export default function SocialMediaSection() {
                 <div>
                   <p className="font-bold text-white text-sm">@cfclopes_ec</p>
                   <p className="text-white/40 text-xs mt-0.5">Autoescola · Engenheiro Coelho, SP</p>
+                    <p className="text-white/40 text-xs mt-0.5">CFC Lopes · Engenheiro Coelho, SP</p>
                   <div className="flex gap-4 mt-2 text-xs">
                     <span><b className="text-white">847</b> <span className="text-white/40">posts</span></span>
                     <span><b className="text-white">4.2k</b> <span className="text-white/40">seguidores</span></span>
@@ -172,6 +173,7 @@ export default function SocialMediaSection() {
             <div className="flex items-center gap-2 text-xs text-white/30 px-2">
               <Repeat2 size={13} />
               <span>Estratégia alinhada com datas sazonais, campanhas e promoções da autoescola</span>
+              <span>Estratégia alinhada com datas sazonais, campanhas e promoções do CFC Lopes</span>
             </div>
           </motion.div>
         </div>

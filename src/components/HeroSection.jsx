@@ -107,7 +107,7 @@ export default function HeroSection() {
             Projeto de{' '}
             <span className="text-gradient">Estruturação Digital</span>
             <br />
-            para a <span className="text-white/90">Autoescola</span>
+            para o <span className="text-white/90">CFC Lopes</span>
           </motion.h1>
 
           {/* Subtitle */}
@@ -116,7 +116,7 @@ export default function HeroSection() {
             className="text-[clamp(1rem,1.8vw,1.2rem)] text-white/55 leading-relaxed max-w-2xl mb-4"
           >
             Uma proposta completa de presença digital, sistema de gerenciamento,
-            aplicativo do aluno e marketing visual para posicionar a autoescola
+            aplicativo do aluno e marketing visual para posicionar o CFC Lopes
             com mais autoridade, organização e crescimento.
           </motion.p>
 
@@ -124,7 +124,7 @@ export default function HeroSection() {
             variants={itemVariants}
             className="text-sm text-white/35 leading-relaxed max-w-xl mb-10"
           >
-            Este projeto foi pensado para transformar a autoescola em uma operação mais moderna,
+            Este projeto foi pensado para transformar o CFC Lopes em uma operação mais moderna,
             profissional e preparada para captar, acompanhar e converter alunos com muito mais eficiência.
           </motion.p>
 

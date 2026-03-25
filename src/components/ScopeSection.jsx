@@ -11,6 +11,7 @@ const tabs = [
     eyebrow: 'Plataforma Web',
     heading: 'Site profissional para captação de alunos',
     description: 'Uma presença digital que transmite credibilidade, converte visitantes em leads e representa a autoescola como referência na região.',
+      description: 'Uma presença digital que transmite credibilidade, converte visitantes em leads e representa o CFC Lopes como referência na região.',
     features: [
       { icon: Globe,      text: 'Estrutura SEO local (Google Maps + busca orgânica)' },
       { icon: Users,      text: 'Formulário de captação de leads com WhatsApp integrado' },
@@ -61,6 +62,7 @@ const tabs = [
           <div className="flex items-center gap-2">
             <div className="w-5 h-5 rounded-md bg-gradient-to-br from-blue-600 to-cyan-500"/>
             <span className="text-xs font-bold text-white/70">Autoescola Admin</span>
+            <span className="text-xs font-bold text-white/70">CFC Lopes Admin</span>
           </div>
           <div className="flex items-center gap-1.5">
             <div className="w-1.5 h-1.5 rounded-full bg-green-400"/>
@@ -251,7 +253,7 @@ export default function ScopeSection() {
             O que está <span className="text-gradient">incluído</span>
           </h2>
           <p className="text-white/50 text-lg max-w-2xl mx-auto">
-            Três frentes principais que formam o ecossistema digital completo da autoescola.
+            Três frentes principais que formam o ecossistema digital completo do CFC Lopes.
           </p>
         </motion.div>
 

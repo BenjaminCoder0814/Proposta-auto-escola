@@ -8,6 +8,7 @@ const steps = [
     color: 'blue',
     label: 'Cliente descobre o CFC',
     desc: 'Pelo Google, Instagram ou indicação — o cliente encontra a autoescola com uma presença digital profissional e conteúdo relevante.',
+    desc: 'Pelo Google, Instagram ou indicação — o cliente encontra o CFC Lopes com uma presença digital profissional e conteúdo relevante.',
   },
   {
     icon: Phone,

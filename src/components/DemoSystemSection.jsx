@@ -56,6 +56,7 @@ export default function DemoSystemSection() {
           </h2>
           <p className="text-white/50 text-lg max-w-2xl mx-auto">
             O painel interno que a equipe da autoescola vai usar para gerenciar alunos,
+              O painel interno que a equipe do CFC Lopes vai usar para gerenciar alunos,
             acompanhar o pipeline de atendimento e ter visibilidade total da operação.
           </p>
         </motion.div>
@@ -81,6 +82,7 @@ export default function DemoSystemSection() {
               <div className="w-7 h-7 rounded-xl flex items-center justify-center font-black text-xs"
                 style={{ background: 'linear-gradient(135deg,#3B82F6,#06B6D4)' }}>AS</div>
               <span className="font-bold text-sm text-white">Autoescola</span>
+                <span className="font-bold text-sm text-white">CFC Lopes</span>
               <div className="flex items-center gap-1.5 px-2 py-1 rounded-full text-[9px]"
                 style={{ background: 'rgba(16,185,129,0.15)', border: '1px solid rgba(16,185,129,0.2)', color: '#6EE7B7' }}>
                 <div className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
